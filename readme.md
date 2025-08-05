@@ -32,44 +32,66 @@ This is an app for ordering tickets to see movies in any theatre. This app is ba
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can see a list of movies available to buy tickets in the app
+* User can see details about a movie
+* User can buy tickets for a movie
+* User can see if the movie tickets are purchased
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User can log into the app to buy tickets
 
 ### 2. Screen Archetypes
 
-- [ ] [list first screen here]
-* [list associated required story here]
-* ...
-list second screen here]
-* [list associated required story here]
-* ...
+- [ ] Movie List Screen
+* User can see a list of movies available to buy tickets in the app
+- [ ] Movie Details Screen
+* User can see details about a movie, ratings, plot,and order tickets for a movie
+- [ ] Movie Tickets Screen
+* User can add movie tickets to the cart
+- [ ] Movie Cart Screen
+* User can buy tickets for a movie
+- [ ] Movie Tickets Purchased Screen
+* User can see if the movie tickets are purchased and confirmed
+- [ ] User Screen
+* User can see their profile, purchased tickets, and a theater location
+- [ ] User My Tickets Screen
+* User can see their purchased tickets
+
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Home Feed
+* Cart (Buying Tickets)
+* User Profile
 
 **Flow Navigation** (Screen to Screen)
 
-- [ ] [list first screen here]
-* [list screen navigation here]
-* ...
-- [ ] [list second screen here]
-* [list screen navigation here]
-* ...
+- [ ] Stream Film Screen
+* => None, but future versions will likely involve sign-in.
+- [ ] Movie Detail Screen
+* => Home (Stream Film Screen) -> Movie Detail
+* => In the actual wireframe, you will need multiple screens to represent the creation process to add filters, etc.
+- [ ] Movie Tickets Screen
+* => Home (Stream Film Screen) -> Movie Detail -> Movie Tickets
+* => In the actual wireframe, you will need multiple screens to represent the creation process to add filters, etc.
+- [ ] Movie Cart Screen
+* => Home (Stream Film Screen) -> Cart on Navigation Bar -> Movie Cart Screen
+- [ ] Tickets Purchased Screen
+* => Home (Stream Film Screen) -> Cart on Navigation Bar -> Movie Cart Screen -> Confirm button -> Tickets Purchased Screen
+*  => In the actual wireframe, you will need multiple screens to represent the creation process to add filters, etc.
+- [ ] User Profile Screen
+* => Home (Stream Film Screen) -> User Profile
+- [ ] My Tickets Screen
+* => Home (Stream Film Screen) -> User Profile -> My Tickets -> View Details
+*  => In the actual wireframe, you will need multiple screens to represent the creation process to add filters, etc.
 
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="images/wireframes.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
