@@ -91,7 +91,7 @@ This is an app for ordering tickets to see movies in any theatre. This app is ba
 ## Wireframes
 
 [Add picture of your hand sketched wireframes in this section]
-<img src="images/wireframes.png" width=600>
+<img src="https://new.express.adobe.com/publishedV2/urn:aaid:sc:VA6C2:755eaa1b-6568-45f2-8b6f-0bcc566239fd?promoid=Y69SGM5H&mv=other" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
