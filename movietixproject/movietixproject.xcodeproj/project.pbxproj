@@ -19,6 +19,8 @@
 		5073A4702E41058400F5610C /* NukeExtensions in Frameworks */ = {isa = PBXBuildFile; productRef = 5073A46F2E41058400F5610C /* NukeExtensions */; };
 		5073A4722E41058400F5610C /* NukeUI in Frameworks */ = {isa = PBXBuildFile; productRef = 5073A4712E41058400F5610C /* NukeUI */; };
 		5073A4742E41058400F5610C /* NukeVideo in Frameworks */ = {isa = PBXBuildFile; productRef = 5073A4732E41058400F5610C /* NukeVideo */; };
+		50E74C272E484CBC00F87AC0 /* MovieTicketsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E74C262E484CBC00F87AC0 /* MovieTicketsViewController.swift */; };
+		50E74C292E4856E400F87AC0 /* TicketAddedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E74C282E4856E400F87AC0 /* TicketAddedViewController.swift */; };
 		50E9E3502E42576F00427F04 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50E9E34F2E42576F00427F04 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +35,8 @@
 		5073A4612E4104CF00F5610C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5073A4642E4104CF00F5610C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5073A4662E4104CF00F5610C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		50E74C262E484CBC00F87AC0 /* MovieTicketsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTicketsViewController.swift; sourceTree = "<group>"; };
+		50E74C282E4856E400F87AC0 /* TicketAddedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketAddedViewController.swift; sourceTree = "<group>"; };
 		50E9E34F2E42576F00427F04 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -75,6 +79,8 @@
 				502640572E419AA4008F994C /* Movie.swift */,
 				5073A45C2E4104CD00F5610C /* ViewController.swift */,
 				5073A45E2E4104CD00F5610C /* Main.storyboard */,
+				50E74C262E484CBC00F87AC0 /* MovieTicketsViewController.swift */,
+				50E74C282E4856E400F87AC0 /* TicketAddedViewController.swift */,
 				50E9E34F2E42576F00427F04 /* DetailViewController.swift */,
 				50091A6C2E41A25100FDEEBF /* MovieCell.swift */,
 				5073A4612E4104CF00F5610C /* Assets.xcassets */,
@@ -169,7 +175,9 @@
 				502640582E419AA4008F994C /* Movie.swift in Sources */,
 				50E9E3502E42576F00427F04 /* DetailViewController.swift in Sources */,
 				50091A6D2E41A25100FDEEBF /* MovieCell.swift in Sources */,
+				50E74C272E484CBC00F87AC0 /* MovieTicketsViewController.swift in Sources */,
 				5073A45B2E4104CD00F5610C /* SceneDelegate.swift in Sources */,
+				50E74C292E4856E400F87AC0 /* TicketAddedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
