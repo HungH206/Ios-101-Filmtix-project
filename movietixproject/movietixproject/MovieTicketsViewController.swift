@@ -12,6 +12,8 @@ class MovieTicketsViewController: UIViewController {
     @IBOutlet weak var ticketStepper: UIStepper!
     @IBOutlet weak var confirmButton: UIButton!
     
+    var movie: Movie!
+    
     private var ticketCount = 1 {
         didSet { updateUI() }
     }
@@ -31,19 +33,20 @@ class MovieTicketsViewController: UIViewController {
         }
     
         @IBAction private func didTapConfirm(_ sender: UIButton) {
-            performSegue(withIdentifier: "showTicketAdded", sender: nil)
+        guard let movie = movie else {
+            print("Movie is nil, cannot add to cart!")
+            return
         }
+        print("🍏 Adding to cart: \(movie.title), tickets: \(ticketCount)")
+        CartManager.shared.add(movie: movie, tickets: ticketCount)
+        performSegue(withIdentifier: "showCart", sender: self)
+    }
 
-        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            guard segue.identifier == "showTicketAdded",
-                  let dest = segue.destination as? TicketAddedViewController else { return }
-            dest.ticketCount = ticketCount
-        }
-
-        private func updateUI() {
-            countLabel.text = "\(ticketCount)"
-            ticketStepper.value = Double(ticketCount)
-        }
+    private func updateUI() {
+        countLabel.text = "\(ticketCount)"
+        ticketStepper.value = Double(ticketCount)
+    }
+    
 
     /*
     // MARK: - Navigation

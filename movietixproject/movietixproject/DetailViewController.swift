@@ -24,6 +24,12 @@ class DetailViewController: UIViewController {
     
     var movie: Movie!
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "showTicketSelector",
+           let dest = segue.destination as? MovieTicketsViewController {
+            dest.movie = movie
+        }
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +39,6 @@ class DetailViewController: UIViewController {
 
         
         // TODO: Update favorite button selected state
-
 
 
 

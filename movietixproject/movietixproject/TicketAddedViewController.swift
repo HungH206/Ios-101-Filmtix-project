@@ -9,17 +9,19 @@ import UIKit
 
 class TicketAddedViewController: UIViewController {
     
+    
     @IBOutlet weak var messageLabel: UILabel!
     
-    @IBOutlet weak var cartButton: UIButton!
+    @IBOutlet weak var profileButton: UIButton!
     
-    var ticketCount: Int = 0
+    
+    var ticketCount: Int = 1
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        messageLabel.text = "Your \(ticketCount) ticket(s) were added to cart. Please check your cart to reserve your tickets."
+        messageLabel.text = "Your \(ticketCount) ticket(s) were reserved."
     }
     
     @IBAction private func didTapReturn(_ sender: UIButton) {
